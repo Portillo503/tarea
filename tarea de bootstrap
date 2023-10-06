@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakpoints y containers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    <h2>Contenedores y Breakpoints</h2>
+<!-- Contenedor.container con fondo azul--->
+<div class="container bg-primary text-white">
+<h2>Contenedor .container</h2> 
+<p>Este es un contenedor normal de Bootstrap.</p>
+</div>
+
+<!-- Contimedor container-sm con fondo verde -->
+<div class="container-sm bg-success text white">
+<h2>Contenedor .container-sm</h2>
+<p>Este es un contenedor pequeño (small) de Bootstrap.</p>
+</div>
+    
+
+<!-- Contenedor .container-md con fondo amarillo -->
+<div class="container-md bg-warning">
+    <h2>Contenedor .container-md</h2>
+    <p>Este es un contenedor mediano (medium) de Bootstrap.</p>
+</div>
+
+    <!-- Contenedor .container-Lg con fondo rojo -->
+<div class="container-lg bg-danger text-white">
+    <h2>Contenedor .container-1g</h2>
+    <p>Este es un contenedor grande (large) de Bootstrap.</p>
+</div>
+
+
+<!-- Contenedor .container-xl con fondo morado --> 
+<div class="container-xl bg-primary text-white">
+    <h2>Contenedor .container-xl</h2>
+    <p>Este es un contenedor extra grande (extra large) de Bootstrap.</p>
+</div>
+
+
+    <!-- Contenedor .container-xxl con fondo naranja -->
+<div class="container-xxl bg-warning text-dark">
+    <h2>Contenedor .container-xxl</h2>
+    <p>Este es un contenedor extra extra grande (extra extra large) de Bootstrap.</p>
+</div>
+
+
+<!--- Contenedor .container-fluid con fondo gris --> 
+<div class="container-fluid bg-secondary text-white"> 
+    <h2>Contenedor .container-fluid</h2> 
+    <p>Este es un contenedor fluido (fluid) de Bootstrap que ocupa todo el ancho disponible.</p> 
+</div>
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>
